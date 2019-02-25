@@ -1,0 +1,6 @@
+C:\Users\30001654\Desktop\Week1\Week1\Task5\bin\Debug\Task5.exe.config
+C:\Users\30001654\Desktop\Week1\Week1\Task5\bin\Debug\Task5.exe
+C:\Users\30001654\Desktop\Week1\Week1\Task5\bin\Debug\Task5.pdb
+C:\Users\30001654\Desktop\Week1\Week1\Task5\obj\Debug\Task5.csproj.CoreCompileInputs.cache
+C:\Users\30001654\Desktop\Week1\Week1\Task5\obj\Debug\Task5.exe
+C:\Users\30001654\Desktop\Week1\Week1\Task5\obj\Debug\Task5.pdb

@@ -1,0 +1,6 @@
+C:\Users\30001654\Desktop\Week1\Week1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\30001654\Desktop\Week1\Week1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\30001654\Desktop\Week1\Week1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\30001654\Desktop\Week1\Week1\ConsoleApp1\obj\Debug\Task2.csproj.CoreCompileInputs.cache
+C:\Users\30001654\Desktop\Week1\Week1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\30001654\Desktop\Week1\Week1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
