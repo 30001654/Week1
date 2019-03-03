@@ -19,40 +19,22 @@ namespace login
         [STAThreadAttribute]
         static void Main(string[] args)
         {
-            try
-            {
-                using (Process myProcess = new Process())
-                {
-                    myProcess.StartInfo.UseShellExecute = false;
-                    // You can start any process, HelloWorld is a do-nothing example.
-                    myProcess.StartInfo.FileName = "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe";
-                    myProcess.StartInfo.Arguments = "https://moodle.toiohomai.ac.nz";
-                    myProcess.StartInfo.CreateNoWindow = true;
-                    myProcess.Start();
-                    // This code assumes the process you are starting will terminate itself. 
-                    // Given that is is started without a window so you cannot terminate it 
-                    // on the desktop, it must terminate itself or you can do it programmatically
-                    // from this application using the Kill method.
-                }
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
 
-            System.Threading.Thread.Sleep(2500);
+            Process.Start("https://moodle.toiohomai.ac.nz:");
 
-            int hWnd = FindWindow(null, "Sign In - Google Chrome");
+
+            System.Threading.Thread.Sleep(1000);
+
+            int hWnd = FindWindow(null, "Google - Mozilla Firefox");
             if (hWnd > 0) //If found
             {
                 SetForegroundWindow(hWnd); //Activate it
             }
             else
             {
-                MessageBox.Show("Window Not Found!");
+                Console.WriteLine("Window not found yet.");
             }
 
-            
 
             Clipboard.SetText("30001654@student.toiohomai.ac.nz");
 
@@ -65,7 +47,6 @@ namespace login
 
             SendKeys.SendWait("^{v}");
             SendKeys.SendWait("{ENTER}");
-
         }
 
         //Import the FindWindow API to find our window
