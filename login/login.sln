@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "login", "login\login.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "login3", "login3\login3.csproj", "{C6AFD6D0-223C-4777-AAFA-AAAB7603721E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "login4", "login4\login4.csproj", "{41035A9E-29F5-40B6-804E-B11D05B369E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "login5", "login5\login5.csproj", "{DF13AC28-0C74-4264-9FB4-A434168F16DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{C6AFD6D0-223C-4777-AAFA-AAAB7603721E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6AFD6D0-223C-4777-AAFA-AAAB7603721E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6AFD6D0-223C-4777-AAFA-AAAB7603721E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{41035A9E-29F5-40B6-804E-B11D05B369E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{41035A9E-29F5-40B6-804E-B11D05B369E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{41035A9E-29F5-40B6-804E-B11D05B369E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{41035A9E-29F5-40B6-804E-B11D05B369E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF13AC28-0C74-4264-9FB4-A434168F16DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF13AC28-0C74-4264-9FB4-A434168F16DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF13AC28-0C74-4264-9FB4-A434168F16DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF13AC28-0C74-4264-9FB4-A434168F16DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
